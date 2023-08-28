@@ -8,4 +8,81 @@
 body {
   height: 100vh;
   width: 100%;
+  background-color: #e4dfdc;
+  padding-left: 3rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.75rem;
+}
+
+header {
+  width: 100%;
+}
+
+.header-items {
+  display: flex;
+  gap: 4.938rem;
+  align-items: center;
+  width: 40%;
+}
+
+.header-items a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.125rem;
+}
+
+.hero-content {
+  display: flex;
+  gap: 3.6rem;
+}
+
+.hero-text {
+  font-weight: 800;
+  font-size: 4.5rem;
+  margin-top: 4rem;
+  width: 31rem;
+  height: 10rem;
+}
+
+.hero-description {
+  margin-top: 1rem;
+  width: 25rem;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  opacity: 0.6;
+}
+
+.purchase-details {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.purchase-details button {
+  border-radius: 8px;
+  background: #2D2B2C;
+  color: white;
+  width: 12rem;
+  height: 3rem;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+
+  cursor: pointer;
+}
+
+.purchase-details p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.big-shoes {
+  width: 28rem;
+  height: 28rem;
+}
+
+.shoes-gallery {
+  margin-top: 2rem;
 }
